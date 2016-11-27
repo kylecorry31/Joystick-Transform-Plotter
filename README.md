@@ -4,6 +4,8 @@ Joystick Transform Plotter
 A joystick transform function plotter for Python.
 Maps controller input through an equation and plots it as either a 2d representation of a 3d graph or a 2d graph for a single axis.
 
+Requires matplotlib
+
 ```Python
 ## examples
 plot3d(mag)
