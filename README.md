@@ -30,3 +30,21 @@ def thresh2(x, t):
 
 plot2d(lambda x: thresh2(x, 0.25))
 ```
+
+## A linear transform over a single axis
+![Linear Axis](linear_axis.png)
+
+## A square transform over a single axis
+![Square Axis](squared_axis.png)
+
+## A deadzone transform over a single axis
+![Axis Deadzone](axis_deadzone.png)
+
+## A axial deadzone transform over both axes
+![Axial Deadzone](axial_deadzone.png)
+
+## A radial deadzone transform over both axes
+![Radial Deadzone](radial threshold.png)
+
+## A scaled radial deadzone transform over both axes
+![Scaled Radial Deadzone](scaled radial threshold.png)
