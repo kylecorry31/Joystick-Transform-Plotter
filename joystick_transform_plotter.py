@@ -43,7 +43,7 @@ def x_grid(numpoints):
 
 
 def plot3d(fn, numpoints=100):
-    plt.scatter(x_grid(numpoints), y_grid(numpoints), c=toColors(evalMatrix(fn, numpoints)), edgecolors='face', vmin=0, vmax=1)
+    plt.scatter(x_grid(numpoints), y_grid(numpoints), cmap="plasma", c=toColors(evalMatrix(fn, numpoints)), edgecolors='face', vmin=0, vmax=1)
     plt.show()
 
 def plot2d(fn, numpoints=1000):
@@ -53,7 +53,7 @@ def plot2d(fn, numpoints=1000):
         x = i / float(numpoints - 1) * 2 - 1
         x_mat[0][i] = x
         mat[0][i] = fn(x)
-    plt.scatter(x_mat, mat, c=mat, edgecolors='face', vmin=-1, vmax=1)
+    plt.scatter(x_mat, mat, c=mat, edgecolors='face', cmap="plasma", vmin=-1, vmax=1)
     plt.show()
 
     
